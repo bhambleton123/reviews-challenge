@@ -3,7 +3,6 @@ import Comment from '../components/Comment';
 import styles from '../styles/Home.module.scss';
 
 export default function Home(props) {
-  console.log(props.comments);
   return (
     <div className={styles.container}>
       {props.comments.map((comment, key) => {
